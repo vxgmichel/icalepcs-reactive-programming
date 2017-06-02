@@ -144,6 +144,8 @@ Why events?
 
   * Monitoring shoudn't affect the world
 
+--
+
 - **Consequence**:
 
   * Read requests from clients shouldn't trigger a hardware request
@@ -193,6 +195,8 @@ Event configuration
   * **Type B**: use command polling and push change event from the code
 
   * **Type C**: use attribute polling and rely on periodic events
+
+--
 
 - High-level TANGO devices
 
