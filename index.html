@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Facade devices, a reactive approach to Tango</title>
+    <title>Reactive programming and control systems</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,400italic);
       body { font-family: 'Droid Serif'; }
       h1, h2, h3 {
         font-family: 'Yanone Kaffeesatz';
         font-weight: normal;
       }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-    </style> 
+      .remark-code, .remark-inline-code { font-family: 'Roboto Mono'; font-size: 1.3em;}
+
+      .red { color: #fa6040; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+
+      .inverse {
+        background: #272822;
+        color: #a7a8a2;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+
+      img {
+        max-height: 20em;
+      }
+
+    </style>
   </head>
   <body>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
@@ -22,6 +49,7 @@
       var slideshow = remark.create({
           sourceUrl: 'slides.md',
           slideNumberFormat: '- %current% -',
+          highlightLines: true,
       });
     </script>
   </body>
