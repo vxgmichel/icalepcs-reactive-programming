@@ -1,7 +1,6 @@
-Facade devices, a reactive approach to Tango
---------------------------------------------
+Reactive programming and control systems
+----------------------------------------
 
-A presentation for the TANGO meeting 2017, in Florence.
- 
-Slides available [here](https://vxgmichel.github.io/facade-presentation).
+A presentation for the ICALEPCS 2017, in Barcelona.
 
+Slides: [tinyurl.com/icalepcs-rp](https://vxgmichel.github.io/icalepcs-reactive-programming).
