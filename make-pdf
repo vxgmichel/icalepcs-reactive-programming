@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+echo $(pwd)
+rm -f pdf/icalepcs-reactive-programming.pdf
+python3 -m http.server &
+docker run --rm --net=host \
+       -v $(pwd):/slides \
+       --env http_proxy=http://proxy.esrf.fr:3128 \
+       --env https_proxy=http://proxy.esrf.fr:3128 \
+       --env no_proxy=.esrf.fr,localhost \
+       astefanutti/decktape \
+       remark \
+       http://localhost:8000 \
+       pdf/icalepcs-reactive-programming.pdf
+# file:///slides/index.html \
+# https://vxgmichel.github.io/icalepcs-reactive-programming \
+kill %%
