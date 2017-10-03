@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="805px"
+   height="805px"
+   version="1.1"
+   content="&lt;mxfile userAgent=&quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0&quot; version=&quot;7.4.9&quot; editor=&quot;www.draw.io&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;b1012892-9a14-516b-89f6-e02ff92bfe36&quot; name=&quot;Page-1&quot;&gt;xVZdj5swEPw1PFaKoSHk8fJB7+FOOimV+uzDDlg1LDVOSfrruwYDISa6Kk3aIEX27C5ez4wBL1jnxy+KltkrMC49f8aOXrDxfH8RLfHfAKcWILPFokVSJZjFBmAnfvEu0aIHwXg1StQAUotyDCZQFDzRI4wqBfU4bQ9yvGpJU+4Au4RKF/0mmM5aNJrPBvyZizTrViYzG3mnyfdUwaGw63l+sG9+bTin3b1sfpVRBvUZFGy9YK0AdDvKj2suDbcdbW1dfCXa9614of+owG8rflJ54F3LTWP61JGBFcg7TlZ1JjTflTQxkRqlRyzTucQZweFeSLkGCaqpC+KZuRBPFWUCGzqLbUNzYcwuz5Xmx6t7ID0z6DgOOdfqhCm2wP9syTxdzOtBOhJaLDuXrQOptUva33ugDAeWtWkGI4fAVyiEBiWK1PNDiWut3hWOUt1v9xZyaVW2Tt+LI2cTbMerIDSMSvrO5RtUQgsoMJYgjRyTVoZkgR5/uUjIBWOmnRWVIp2seLKBPrPCNnF/L3xvOvpElgP2FUoDzU2HUGh7tonZApgMbVSaX7GFPStDbCMU7rrtk9NKP8gxkeuYaMIw0R38snT8sqGauk55Sn4chNXogaZZLuPYEY/MHY19MiGoTTHhG/Ss+b30DPz/p2f3yvpQ0DcFCa+q5rHwKD2DRlFHmZG6JLxBqwKUIfLyCN/jLEZj7Xot/4V2xNHumSpWY/Oufms0vwL5OPHCMI6bw3j52NVGt7GIf/l4fYBuU2/dO+mG0+GLqImdfXYG298=&lt;/diagram&gt;&lt;/mxfile&gt;"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="control-system-2.svg"
+   inkscape:export-filename="/home/vimiche/icalepcs-reactive-programming/images/control-system-2.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata69">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     id="namedview67"
+     showgrid="false"
+     inkscape:zoom="0.82920347"
+     inkscape:cx="1120.3535"
+     inkscape:cy="781.08765"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g31" />
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect8504"
+       is_visible="true"
+       pattern="m -0.5,4.5 c 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8502"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect8493"
+       is_visible="true"
+       pattern="m -0.5,4.5 c 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8491"
+       is_visible="true" />
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4199"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <linearGradient
+       id="mx-gradient-f0f0f0-1-e6e6e6-1-s-0"
+       y2="438.66843"
+       x2="361.06781"
+       y1="362.77332"
+       x1="439.52118"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad"
+       gradientTransform="translate(0,-1.7055085)">
+      <stop
+         id="stop4174"
+         style="stop-color:#F0F0F0"
+         offset="0%" />
+      <stop
+         id="stop4176"
+         style="stop-color:#f92672;stop-opacity:1"
+         offset="100%" />
+    </linearGradient>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1"
+       id="linearGradient4178"
+       xlink:href="#mx-gradient-ffffff-1-ff99ff-1-e-0">
+      <stop
+         offset="0%"
+         style="stop-color:#F0F0F0"
+         id="stop7" />
+      <stop
+         offset="100%"
+         style="stop-color:#E6E6E6"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%"
+       id="mx-gradient-ffb366-1-ffffff-1-e-0">
+      <stop
+         offset="0%"
+         style="stop-color:#FFB366"
+         id="stop12" />
+      <stop
+         offset="100%"
+         style="stop-color:#ffffff"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       x1="100%"
+       y1="0%"
+       x2="0%"
+       y2="0%"
+       id="mx-gradient-ffffff-1-ff99ff-1-e-0">
+      <stop
+         offset="0%"
+         style="stop-color:#FF99FF"
+         id="stop17" />
+      <stop
+         offset="100%"
+         style="stop-color:#ffffff"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       x1="0%"
+       y1="100%"
+       x2="0%"
+       y2="0%"
+       id="mx-gradient-ffffff-1-33ff99-1-s-0">
+      <stop
+         offset="0%"
+         style="stop-color:#33FF99"
+         id="stop22" />
+      <stop
+         offset="100%"
+         style="stop-color:#ffffff"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1"
+       id="mx-gradient-66ffff-1-ffffff-1-s-0"
+       gradientUnits="objectBoundingBox"
+       spreadMethod="pad">
+      <stop
+         offset="0%"
+         style="stop-color:#66FFFF"
+         id="stop27" />
+      <stop
+         offset="100%"
+         style="stop-color:#ffffff"
+         id="stop29" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4199-0"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart-1-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4199-0-4"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)" />
+    </marker>
+  </defs>
+  <g
+     transform="translate(0.5,0.5)"
+     id="g31">
+    <circle
+       cx="400"
+       cy="398.29449"
+       pointer-events="none"
+       id="ellipse33"
+       style="fill:url(#mx-gradient-f0f0f0-1-e6e6e6-1-s-0);fill-opacity:1;stroke:#000000;stroke-width:5"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       r="400" />
+    <ellipse
+       cx="200"
+       cy="400"
+       rx="200"
+       ry="200"
+       fill-opacity="0.5"
+       fill="url(#mx-gradient-ffb366-1-ffffff-1-e-0)"
+       stroke="#000000"
+       stroke-opacity="0.5"
+       stroke-width="5"
+       pointer-events="none"
+       id="ellipse35"
+       style="fill:none;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(27.5,359.5)scale(5)"
+       id="g37"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#000000;fill-opacity:1;opacity:0.5">
+      <switch
+         id="switch39"
+         style="fill:#000000;fill-opacity:1">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="50"
+           height="11"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 51px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">Monitoring<xhtml:br />
+</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="25"
+           y="11"
+           fill="#000000"
+           text-anchor="middle"
+           font-size="11px"
+           font-family="Helvetica"
+           id="text41"
+           style="-inkscape-font-specification:'Ubuntu, Normal';font-family:Ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:125%;opacity:0.75;fill:#000000;fill-opacity:1"
+           sodipodi:linespacing="125%">
+          <tspan
+             sodipodi:role="line"
+             id="tspan3409">Monitoring</tspan>
+        </text>
+      </switch>
+    </g>
+    <ellipse
+       cx="600"
+       cy="400"
+       rx="200"
+       ry="200"
+       fill="url(#mx-gradient-ffffff-1-ff99ff-1-e-0)"
+       stroke="#000000"
+       stroke-width="5"
+       pointer-events="none"
+       id="ellipse43"
+       style="fill:none;opacity:0.5;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="matrix(5,0,0,5,526.5,272.5)"
+       id="g45"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="opacity:0.5">
+      <switch
+         id="switch47"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="52"
+           height="24"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 53px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">Data<xhtml:br />
+
+
+
+Acquisition</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="24.800001"
+           y="15.200003"
+           font-size="11px"
+           id="text49"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;opacity:0.75"
+           sodipodi:linespacing="125%">
+          <tspan
+             sodipodi:role="line"
+             id="tspan3413"
+             x="24.800001"
+             y="15.200003">Data</tspan>
+          <tspan
+             sodipodi:role="line"
+             id="tspan3415"
+             x="24.800001"
+             y="28.950003">Acquisition</tspan>
+        </text>
+      </switch>
+    </g>
+    <ellipse
+       cx="400"
+       cy="600"
+       rx="200"
+       ry="200"
+       fill-opacity="0.5"
+       fill="url(#mx-gradient-ffffff-1-33ff99-1-s-0)"
+       stroke="#000000"
+       stroke-opacity="0.5"
+       stroke-width="5"
+       pointer-events="none"
+       id="ellipse51"
+       style="fill:none;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="matrix(5,0,0,5,243.5,534.5)"
+       id="g53"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="opacity:0.5">
+      <switch
+         id="switch55"
+         style="">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="61"
+           height="27"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 62px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">Data<xhtml:br />
+
+
+
+Processing</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="31"
+           y="20"
+           font-size="12px"
+           id="text57"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:center;writing-mode:lr;text-anchor:middle;fill:#000000;opacity:0.75"
+           sodipodi:linespacing="125%">
+          <tspan
+             sodipodi:role="line"
+             id="tspan3417"
+             x="31"
+             y="20">Data</tspan>
+          <tspan
+             sodipodi:role="line"
+             id="tspan3419"
+             x="31"
+             y="35">Processing</tspan>
+        </text>
+      </switch>
+    </g>
+    <ellipse
+       cx="400"
+       cy="200"
+       rx="200"
+       ry="200"
+       fill-opacity="0.5"
+       fill="url(#mx-gradient-66ffff-1-ffffff-1-s-0)"
+       stroke="#000000"
+       stroke-opacity="0.5"
+       stroke-width="5"
+       pointer-events="none"
+       id="ellipse59"
+       style="fill-opacity:1;fill:none;stroke:none"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="matrix(5,0,0,5,279.5,34.5)"
+       id="g61"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#000000;fill-opacity:1;opacity:0.5">
+      <switch
+         id="switch63"
+         style="fill:#000000;fill-opacity:1">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="all"
+           width="48"
+           height="24"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 49px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;">Hardware<xhtml:br />
+
+
+
+Control</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="24"
+           y="18"
+           font-size="11px"
+           id="text65"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:center;writing-mode:lr;text-anchor:middle;fill:#000000;opacity:0.75;fill-opacity:1"
+           sodipodi:linespacing="125%">
+          <tspan
+             sodipodi:role="line"
+             id="tspan3439">Hardware</tspan>
+          <tspan
+             sodipodi:role="line"
+             id="tspan3441">Control</tspan>
+        </text>
+      </switch>
+    </g>
+    <path
+       style="opacity:0.8;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.54115605;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart-1)"
+       d="m 480.20959,550.19267 77.04418,-66.74791"
+       id="path4175-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.9519577px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="482.8616"
+       y="-5.2564211"
+       id="text7530"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.68485771,0.72939273,-0.65582598,0.7616842,0,0)"><tspan
+         sodipodi:role="line"
+         x="482.8616"
+         y="-5.2564211"
+         id="tspan7534">Events</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.75px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text7530-0"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.99831121,-0.05809235,0.05809235,0.99831121,-9.522007,10.45549)"><textPath
+         xlink:href="#path8489"
+         id="textPath8496"><tspan
+   id="tspan7592">Asynchronous</tspan></textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.75px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text7530-0-9"
+       sodipodi:linespacing="125%"
+       x="-2"
+       transform="matrix(0.99694318,-0.07813003,0.07813003,0.99694318,-49.87107,36.61438)"><textPath
+         xlink:href="#path8500"
+         id="textPath8506"><tspan
+   id="tspan7612">Synchronous</tspan></textPath></text>
+    <path
+       style="opacity:0.8;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.54115605;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart-1-3)"
+       d="m 224.55909,287.1975 77.04418,-66.74791"
+       id="path4175-5-9"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 18.434366,470.74597 c 1.313467,-0.31487 6.522724,16.16179 13.876925,43.02145 0,0 2e-6,10e-6 2e-6,10e-6 3.656884,9.16652 7.722642,19.58276 12.090157,30.97983 8.471273,16.6214 17.886217,35.44617 27.792911,55.61652 3.389367,5.18262 6.827707,10.46143 10.303861,15.82052 2.431945,3.74927 4.835513,7.46554 7.207379,11.14329 6.834579,8.61402 13.444309,17.00293 19.765419,25.08101 12.65801,13.44573 24.28467,25.96354 34.44179,37.06656 11.31366,10.60496 21.4027,19.34429 29.29876,26.10109 11.68703,10.00395 18.57443,15.72055 17.97895,16.56515 -0.52309,0.74192 -8.46524,-3.49356 -21.21529,-12.37829 -8.6515,-6.03389 -19.51725,-14.23623 -31.60306,-24.54993 -10.78802,-10.73718 -22.98706,-23.06332 -36.10786,-36.49801 -6.646287,-8.17955 -13.551803,-16.73513 -20.634787,-25.57 -2.470146,-3.79044 -4.964323,-7.62831 -7.477876,-11.50685 -3.592814,-5.5439 -7.12612,-11.01796 -10.587194,-16.40128 -9.944126,-20.62203 -19.114111,-39.98821 -27.079025,-57.1423 -4.064136,-11.90105 -7.702534,-22.77232 -10.823399,-32.33393 0,0 -2e-6,-10e-6 -2e-6,-10e-6 -5.707668,-27.63036 -8.541893,-44.69977 -7.227661,-45.01483 z"
+       id="path8489"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 773.16129,253.19438 c -1.24128,0.55599 -9.3551,-14.54328 -21.44043,-39.34028 0,0 0,0 0,0 -6.91588,-11.06457 -14.93141,-24.17133 -23.6892,-38.74812 -6.13285,-7.91569 -12.72374,-16.11657 -19.81414,-24.54271 -7.06716,-8.42947 -14.54916,-16.98908 -22.48187,-25.63815 -3.74732,-4.08572 -7.48892,-8.07551 -11.22095,-11.97266 C 658.85059,100.2135 644.15139,88.094712 630.96576,77.070277 612.29343,64.989726 596.38025,54.430381 584.59998,46.310453 569.47427,37.854186 560.78201,32.417975 561.25186,31.478278 c 0.47009,-0.940176 10.04361,2.757701 26.11162,9.897699 12.56119,7.052337 29.2753,16.830604 48.71632,28.506596 13.78089,10.756207 29.03946,22.834095 45.1375,35.749167 3.86105,3.97252 7.72258,8.05517 11.57623,12.248 8.15558,8.8734 15.79936,17.72183 22.94129,26.46271 7.17828,8.81621 13.78565,17.44158 19.83894,25.76979 8.52533,15.18873 16.08828,28.9113 22.35952,40.55802 0,0 1e-5,10e-6 1e-5,10e-6 10.59573,25.84165 16.46997,41.96781 15.228,42.52411 z"
+       id="path8500"
+       inkscape:path-effect="#path-effect8502;#path-effect8504"
+       inkscape:original-d="M 773.16129,253.19438 754.82707,212.26218 731.80271,172.60911 711.97617,147.45286 677.866,109.2921 633.52278,73.476425 585.98173,43.843215 561.25186,31.478278"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

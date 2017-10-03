@@ -10,20 +10,22 @@ Reactive programming
 
 ## and how it fits within control systems
 
-[Vincent Michel](https://github.com/vxgmichel) @ ESRF
+•
+
+[**Vincent Michel**](https://github.com/vxgmichel) @ ESRF
 
 ICALEPCS 2017 - Barcelona
 
-*
+•
 
-GitHub: [vxgmichel/icalepcs-reactive-programming](https://github.com/vxgmichel/icalepcs-reactive-programming)
+GitHub: [**vxgmichel/icalepcs-reactive-programming**](https://github.com/vxgmichel/icalepcs-reactive-programming)
 
-Slides: [tinyurl.com/icalepcs-rp](http://tinyurl.com/icalepcs-rp)
+Slides: [**tinyurl.com/icalepcs-rp**](http://tinyurl.com/icalepcs-rp)
 
-*
+•
 
 
-.footnote.right[.red[**⚠ Warning :**] there will be code chunks!]
+.footnote.right[.red[**⚠ Warning :**] contains real code chunks!]
 
 ---
 class: center, middle, inverse
@@ -33,8 +35,8 @@ What is reactive programming ?
 
 ***
 
-It's → About → Propagating → Changes
-------------------------------------
+It's .red[→] About .red[→] Propagating .red[→] Changes
+------------------------------------------------------
 
 ### *Hum, this looks like a pipeline...*
 
@@ -44,7 +46,7 @@ class: center, inverse
 **Imperative** → assignment
 -----------------------
 
-### **`C = A + B`**
+### .red[**`C = A + B`**]
 
 ### `C` is **NOT** updated if `A` or `B` changes
 
@@ -53,7 +55,7 @@ class: center, inverse
 **Reactive** → definition
 ---------------------
 
-### **`C := A + B`**
+### .red[**`C := A + B`**]
 
 ### `C` **IS** updated if `A` or `B` changes
 
@@ -80,7 +82,7 @@ obj.B = 10
 assert obj.C == 11
 ```
 
-### Descriptive, but not actually reactive
+### Descriptive, but .red[not asynchronous]
 
 ---
 class: middle, inverse
@@ -141,7 +143,7 @@ How/when is it useful?
 ### .large.red[≝　]A declarative interface hides the implementation logic
 
 ---
-class: middle, inverse
+class: center, middle, inverse
 
 What about control systems?
 ===========================
@@ -149,188 +151,134 @@ What about control systems?
 .center[![control-system](images/control-system.png)]
 
 ---
+class: center, middle, inverse
 
-layout: true
+Where does reactive programming apply?
+======================================
 
-2. MAX-IV event policy
-======================
-
----
-class: center, middle
+.center[![control-system](images/control-system-2.png)]
 
 ---
-class: top, left
+class: inverse
 
-Why events?
------------
+Monitoring and events
+=====================
 
-- **Golden rule**:
+***
 
-  * Monitoring shoudn't affect the world
+## **Golden rule**
+
+# .red[**Monitoring shoudn't affect the world**]
 
 --
 
-- **Consequence**:
+## (unless your experiment includes a cat in a box)
 
-  * Read requests from clients shouldn't trigger a hardware request
+.center[![cat](images/cat.png)]
 
-  * The communication with the hardware is handled by the server
+---
+class: center, inverse, middle
 
-  * Regardless of the number of clients (could be 0, 1 or 10)
+.red[**Implications**]
+----------------------
 
-  * Reading from the cache is OK, but PUB/SUB is better!
+### The monitoring system .red[**should never**] trigger a hardware request
+
+### A system-agnostic service is managing and .red[**protecting**] the hardware
+
+### .red[→] It does not care about the number of interested agents
+
+---
+class: center, inverse, middle
+
+.red[**How to get the hardware values then?**]
+---------------------
+
+### Reading from a cache is OK ...
+
+### ... but .red[**PUB/SUB**] is better!
 
 
 ---
+class: center, inverse, middle
 
-But what about RPC (REQ/REP)?
------------------------------
+.red[**Should we give up on RPC?**]
+-----------------------------------
 
-- RPC is perfectly fine for all other requests:
 
-  * Commands
+### .red[**REQ/REP**] is perfectly fine for running explicit commands
 
-  * Writing attributes
+### Because commands are the result of a .red[**user decision**]
 
-- Because it's the result of a **user decision**
+### .red[**However**], the monitoring system .red[**is not**] a user
 
---
+---
+class: center, inverse, middle
 
-Then what kind of events?
--------------------------
+.red[**In practice, what can be done reactively?**]
+--------------------------------------------------
 
-- Change event **without tango filters**
+### Apply conversions, .red[**e.g.**] converting hardware units to SI
 
-  * Use `self.set_change_event(True, False)`
+### Integrate values, .red[**e.g.**] accumulating current to compute a charge
 
-- Periodic event as a fallback solution
+### Combine values, .red[**e.g.**] creating logical conditions for the alarm system
 
 
 ---
+class: inverse, middle
 
-Event configuration
--------------------
-
-
-- Low-level (hardware oriented) TANGO devices
-
-  * **Type A**: use internal polling and push change event from the code
-
-  * **Type B**: use command polling and push change event from the code
-
-  * **Type C**: use attribute polling and rely on periodic events
-
---
-
-- High-level TANGO devices
-
-  * **Facade devices**:
-
-     + subscribe to change and periodic events
-
-     + propagate changes (react!)
-
-     + push change event from the code
-
+Has this been implemented somewhere?
+====================================
 
 ---
-layout: true
+class: inverse, middle
 
-3. The facade device library
-============================
+.red.large.center[**Yes!**]
 
----
-class: center, middle
-
-[MaxIV-KitsControls/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)
 
 ```
--
-            +------------+             
-            |            |             
-Events +--->+   React!   +----> Events 
-            |            |             
-            +------------+             
--
+                ┌────────────┐             
+                │   Facade   │             
+Tango Events ──>│            ├──> Tango Events 
+                │ λ / React! │             
+                └────────────┘             
 ```
 
----
-class: top, left
+### .center[More than 1200 facade devices currently at .red[**MAX-IV**]]
 
-Example (C := A + B)
--------------------
+.center[•]
 
-``` python
-class Addtion(Facade):
+## .center[The project is available on GitHub]
 
-    A = proxy_attribute(
-        dtype=float,
-        property_name='AAttribute')
-
-    B = proxy_attribute(
-        dtype=float,
-        property_name='BAttribute')
-
-    @logical_attribute(
-        dtype=float,
-        bind=['A', 'B'])
-    def C(self, a, b):
-        return a + b
-```
+## .center[[maxiv-kitscontrols/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)]
 
 ---
+class: inverse, center, middle
 
-Features
---------
+## Documented
 
-- The `Facade` base class:
+**[tango-facadedevice.readthedocs.io](http://tango-facadedevice.readthedocs.io)**
 
-  * is based on `tango.server.Device`
+Full tutorial, API reference and examples
 
-  * supports inheritance
+## Unit-tested
 
---
+**[travis-ci.org/MaxIV-KitsControls/tango-facadedevice](travis-ci.org/MaxIV-KitsControls/tango-facadedevice)**
 
-- Attributes and commands:
+100% of code coverage :)
 
-  * `local_attribute` - for local settings
+## Released
 
-  * `logical_attribute` - for logical relationships
+**[pypi.org/project/facadedevice](https://pypi.org/project/facadedevice)**
 
-  * `state_attribute` - to make state and status reactive
-
-  * `proxy_attribute` - for forwarding remote attributes
-
-  * `combined_attribute` - for aggregating remote attributes
-
-  * `proxy_command` - for exposing a remote command
-
----
-
-The project
------------
-
-- Documentation on readthedocs:
-
-   * [tango-facadedevice.readthedocs.io](http://tango-facadedevice.readthedocs.io)
-
-   * Full tutorial, API reference and examples
-
-- Unit-tested:
-
-   * Continuous integration with TravisCI
-
-   * 100% of code coverage :)
-
-- Not released on PyPI yet
-
-   * v1.0.0dev
+v1.0.1
 
 ---
 
 name: final
+class: center, middle, inverse
 layout: false
-class: center, middle
 
 Thank you!
 ==========
@@ -339,8 +287,8 @@ Thank you!
 
 ___
 
-Presentation written in `Markdown` and rendered by [remark](http://remarkjs.com/)
+Presentation written in .red[Markdown] and rendered by [remark](http://remarkjs.com/)
 
-Sources for this presentation can be found on github
+Sources and examples on [GitHub](https://github.com/vxgmichel/icalepcs-reactive-programming)
 
-[https://github.com/vxgmichel/facade-presentation](https://github.com/vxgmichel/facade-presentation)
+[vxgmichel/icalepcs-reactive-programming](https://github.com/vxgmichel/icalepcs-reactive-programming)

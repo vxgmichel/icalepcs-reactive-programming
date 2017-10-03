@@ -14,7 +14,10 @@
    content="&lt;mxfile userAgent=&quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0&quot; version=&quot;7.4.9&quot; editor=&quot;www.draw.io&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;b1012892-9a14-516b-89f6-e02ff92bfe36&quot; name=&quot;Page-1&quot;&gt;xVZdj5swEPw1PFaKoSHk8fJB7+FOOimV+uzDDlg1LDVOSfrruwYDISa6Kk3aIEX27C5ez4wBL1jnxy+KltkrMC49f8aOXrDxfH8RLfHfAKcWILPFokVSJZjFBmAnfvEu0aIHwXg1StQAUotyDCZQFDzRI4wqBfU4bQ9yvGpJU+4Au4RKF/0mmM5aNJrPBvyZizTrViYzG3mnyfdUwaGw63l+sG9+bTin3b1sfpVRBvUZFGy9YK0AdDvKj2suDbcdbW1dfCXa9614of+owG8rflJ54F3LTWP61JGBFcg7TlZ1JjTflTQxkRqlRyzTucQZweFeSLkGCaqpC+KZuRBPFWUCGzqLbUNzYcwuz5Xmx6t7ID0z6DgOOdfqhCm2wP9syTxdzOtBOhJaLDuXrQOptUva33ugDAeWtWkGI4fAVyiEBiWK1PNDiWut3hWOUt1v9xZyaVW2Tt+LI2cTbMerIDSMSvrO5RtUQgsoMJYgjRyTVoZkgR5/uUjIBWOmnRWVIp2seLKBPrPCNnF/L3xvOvpElgP2FUoDzU2HUGh7tonZApgMbVSaX7GFPStDbCMU7rrtk9NKP8gxkeuYaMIw0R38snT8sqGauk55Sn4chNXogaZZLuPYEY/MHY19MiGoTTHhG/Ss+b30DPz/p2f3yvpQ0DcFCa+q5rHwKD2DRlFHmZG6JLxBqwKUIfLyCN/jLEZj7Xot/4V2xNHumSpWY/Oufms0vwL5OPHCMI6bw3j52NVGt7GIf/l4fYBuU2/dO+mG0+GLqImdfXYG298=&lt;/diagram&gt;&lt;/mxfile&gt;"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="control-system.svg">
+   sodipodi:docname="control-system.svg"
+   inkscape:export-filename="/home/vimiche/icalepcs-reactive-programming/images/control-system.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata69">
     <rdf:RDF>
@@ -23,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,8 +44,8 @@
      id="namedview67"
      showgrid="false"
      inkscape:zoom="1.1726708"
-     inkscape:cx="25.103976"
-     inkscape:cy="393.02956"
+     inkscape:cx="-181.68893"
+     inkscape:cy="391.32405"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -152,9 +155,11 @@
        id="ellipse35" />
     <g
        transform="translate(27.5,359.5)scale(5)"
-       id="g37">
+       id="g37"
+       style="opacity:0.7">
       <switch
-         id="switch39">
+         id="switch39"
+         style="">
         <foreignObject
            style="overflow:visible;"
            pointer-events="all"
@@ -176,7 +181,7 @@
            font-size="11px"
            font-family="Helvetica"
            id="text41"
-           style="-inkscape-font-specification:'Ubuntu, Normal';font-family:Ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:125%;"
+           style="-inkscape-font-specification:'Ubuntu, Normal';font-family:Ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11px;text-anchor:middle;text-align:center;writing-mode:lr;line-height:125%"
            sodipodi:linespacing="125%">
           <tspan
              sodipodi:role="line"
@@ -196,9 +201,11 @@
        id="ellipse43" />
     <g
        transform="matrix(5,0,0,5,526.5,272.5)"
-       id="g45">
+       id="g45"
+       style="opacity:0.7">
       <switch
-         id="switch47">
+         id="switch47"
+         style="">
         <foreignObject
            style="overflow:visible;"
            pointer-events="all"
@@ -209,6 +216,7 @@
              style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 53px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
             <xhtml:div
                style="display:inline-block;text-align:inherit;text-decoration:inherit;">Data<xhtml:br />
+
 
 Acquisition</xhtml:div>
           </xhtml:div>
@@ -247,9 +255,11 @@ Acquisition</xhtml:div>
        id="ellipse51" />
     <g
        transform="matrix(5,0,0,5,243.5,534.5)"
-       id="g53">
+       id="g53"
+       style="opacity:0.7">
       <switch
-         id="switch55">
+         id="switch55"
+         style="">
         <foreignObject
            style="overflow:visible;"
            pointer-events="all"
@@ -261,6 +271,7 @@ Acquisition</xhtml:div>
             <xhtml:div
                style="display:inline-block;text-align:inherit;text-decoration:inherit;">Data<xhtml:br />
 
+
 Processing</xhtml:div>
           </xhtml:div>
         </foreignObject>
@@ -269,7 +280,7 @@ Processing</xhtml:div>
            y="20"
            font-size="12px"
            id="text57"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:center;writing-mode:lr;text-anchor:middle;fill:#000000;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:center;writing-mode:lr;text-anchor:middle;fill:#000000"
            sodipodi:linespacing="125%">
           <tspan
              sodipodi:role="line"
@@ -298,9 +309,11 @@ Processing</xhtml:div>
        id="ellipse59" />
     <g
        transform="matrix(5,0,0,5,279.5,34.5)"
-       id="g61">
+       id="g61"
+       style="opacity:0.7">
       <switch
-         id="switch63">
+         id="switch63"
+         style="">
         <foreignObject
            style="overflow:visible;"
            pointer-events="all"
@@ -312,6 +325,7 @@ Processing</xhtml:div>
             <xhtml:div
                style="display:inline-block;text-align:inherit;text-decoration:inherit;">Hardware<xhtml:br />
 
+
 Control</xhtml:div>
           </xhtml:div>
         </foreignObject>
@@ -320,7 +334,7 @@ Control</xhtml:div>
            y="18"
            font-size="11px"
            id="text65"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:center;writing-mode:lr;text-anchor:middle;fill:#000000;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:center;writing-mode:lr;text-anchor:middle;fill:#000000"
            sodipodi:linespacing="125%">
           <tspan
              sodipodi:role="line"
