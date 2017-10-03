@@ -289,8 +289,8 @@ Thank you!
 
 ___
 
-Presentation written in .red[Markdown] and rendered by [remark](http://remarkjs.com/)
+Presentation written in .red[**Markdown**] and rendered by [**remark**](http://remarkjs.com/)
 
-Sources and examples on [GitHub](https://github.com/vxgmichel/icalepcs-reactive-programming)
+Sources and examples on [**GitHub**](https://github.com/vxgmichel/icalepcs-reactive-programming)
 
-[vxgmichel/icalepcs-reactive-programming](https://github.com/vxgmichel/icalepcs-reactive-programming)
+[**vxgmichel/icalepcs-reactive-programming**](https://github.com/vxgmichel/icalepcs-reactive-programming)
