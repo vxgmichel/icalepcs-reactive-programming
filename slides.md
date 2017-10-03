@@ -2,8 +2,8 @@ name: empty layout
 layout: true
 
 ---
-name: main title
-class: center, middle, inverse
+name: title
+class: center, middle, inverse, title
 
 Reactive programming
 ====================
@@ -65,7 +65,7 @@ class: middle, inverse
 Examples
 ========
 
-## [Python properties](https://docs.python.org/3/library/functions.html#property)
+## [**Python properties**](https://docs.python.org/3/library/functions.html#property)
 
 ```python3
 @property
@@ -82,12 +82,12 @@ obj.B = 10
 assert obj.C == 11
 ```
 
-### Descriptive, but .red[not asynchronous]
+### Descriptive, but .red[**not asynchronous**]
 
 ---
 class: middle, inverse
 
-## [Kivy](kivy.org)/[QML](http://doc.qt.io/qt-5/qmlapplications.html) (declarative approach)
+## **[Kivy](kivy.org)/[QML](http://doc.qt.io/qt-5/qmlapplications.html)** (declarative approach)
 
 ```kivy
 TextInput:
@@ -108,7 +108,7 @@ Label:
 ---
 class: middle, inverse
 
-## [Rx](http://reactivex.io/)/[RxPy](https://github.com/ReactiveX/RxPY) (constructive approach)
+## **[Rx](http://reactivex.io/)/[RxPy](https://github.com/ReactiveX/RxPY)** (constructive approach)
 
 ```python
 # A counts every second starting from 0
@@ -194,9 +194,11 @@ class: center, inverse, middle
 .red[**How to get the hardware values then?**]
 ---------------------
 
-### Reading from a cache is OK ...
+### Reading from a cache is OK
 
-### ... but .red[**PUB/SUB**] is better!
+### But it introduces some .red[**latency**]
+
+### .red[**PUB/SUB**] is much nicer!
 
 
 ---
@@ -245,13 +247,13 @@ Tango Events ──>│            ├──> Tango Events 
                 └────────────┘             
 ```
 
-### .center[More than 1200 facade devices currently at .red[**MAX-IV**]]
+### .center[More than 1200 facade devices currently running at .red[**MAX-IV**]]
 
 .center[•]
 
 ## .center[The project is available on GitHub]
 
-## .center[[maxiv-kitscontrols/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)]
+## .center[[MaxIV-KitsControls/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)]
 
 ---
 class: inverse, center, middle
