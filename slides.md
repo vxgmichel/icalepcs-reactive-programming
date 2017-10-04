@@ -247,7 +247,7 @@ Tango Events ──>│            ├──> Tango Events 
                 └────────────┘             
 ```
 
-### .center[More than 1200 facade devices currently running at .red[**MAX-IV**]]
+### .center[.red[**3656**] facade devices currently running at .red[**MAX-IV**]]
 
 .center[•]
 
