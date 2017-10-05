@@ -244,9 +244,32 @@ class: inverse, middle, center
 
 •
 
-## The project is available on GitHub
+### .red[**Sensors**]: Temperature sensor, Flow gauge, Vacuum gauge, etc.
 
-## [MaxIV-KitsControls/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)
+### .red[**Actuators**]: Vacuum valve, Camera screen, Beam scraper, etc.
+
+---
+class: inverse, middle
+
+## .center[.red[**C := A + B**] strikes back!]
+
+``` python3
+class Addition(Facade):
+
+    A = proxy_attribute([...])
+
+    B = proxy_attribute([...])
+
+    @logical_attribute(bind=['A', 'B'])
+    def C(self, a, b):
+        return a + b
+```
+
+.center[•]
+
+## .center[The library is available on GitHub]
+
+## .center[[MaxIV-KitsControls/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)]
 
 ---
 class: inverse, center, middle
