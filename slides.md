@@ -228,32 +228,25 @@ class: center, inverse, middle
 
 
 ---
-class: inverse, middle
+class: inverse, middle, center
 
 Has this been implemented somewhere?
 ====================================
 
 ---
-class: inverse, middle
+class: inverse, middle, center
 
-.red.large.center[**Yes!**]
+.red.large[**Yes!**]
 
+![Facade](images/facade.png)
 
-```
-                ┌────────────┐             
-                │   Facade   │             
-Tango Events ──>│            ├──> Tango Events 
-                │ λ / React! │             
-                └────────────┘             
-```
+### .red[**3656**] facade devices currently running at .red[**MAX-IV**]
 
-### .center[.red[**3656**] facade devices currently running at .red[**MAX-IV**]]
+•
 
-.center[•]
+## The project is available on GitHub
 
-## .center[The project is available on GitHub]
-
-## .center[[MaxIV-KitsControls/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)]
+## [MaxIV-KitsControls/tango-facadedevice](https://github.com/MaxIV-KitsControls/tango-facadedevice)
 
 ---
 class: inverse, center, middle
